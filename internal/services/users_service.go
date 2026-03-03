@@ -72,5 +72,5 @@ func (us *UserService) AuthenticateUser(ctx context.Context, email, password str
 		return uuid.UUID{}, err
 	}
 
-	return uuid.UUID{}, nil
+	return user.ID, nil
 }
