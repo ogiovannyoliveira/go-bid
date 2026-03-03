@@ -10,7 +10,6 @@ CREATE TABLE IF NOT EXISTS users (
 );
 
 ---- create above / drop below ----
-
 DROP TABLE IF EXISTS users;
 
 -- Write your migrate down statements here. If this migration is irreversible
